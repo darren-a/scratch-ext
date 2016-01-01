@@ -19,12 +19,16 @@
     };
 
     ext.set_alarm = function(time) {
+       console.log("set_alarm called  ");
        window.setTimeout(function() {
            alarm_went_off = true;
        }, time*1000);
     };
 
     ext.when_alarm = function() {
+    
+       console.log("when_alarm called  ");
+
        // Reset alarm_went_off if it is true, and return true
        // otherwise, return false.
        if (alarm_went_off === true) {
