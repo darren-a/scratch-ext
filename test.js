@@ -26,8 +26,12 @@
     };
 
     ext.when_alarm = function() {
-    
-       console.log("when_alarm called  ");
+       
+       var d = new Date();
+       var n = d.getTime();
+       console.log("when_alarm called at %n", n);
+       d = undefined;
+       n = undefined;
 
        // Reset alarm_went_off if it is true, and return true
        // otherwise, return false.
