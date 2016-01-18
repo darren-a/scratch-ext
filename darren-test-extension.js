@@ -36,10 +36,17 @@
 
     console.log("num of keys in 'ext' is: " + Object.keys(ext).length);
 
-    console.log("contents of 'emptyObject' is: ");
-    console.log(JSON.stringify(emptyObject,null, 4));
+    for (var key in ext) {
 
-    console.log("num of keys in 'emptyObject' is: " + Object.keys(emptyObject).length);
+        if(obj.hasOwnProperty(key)) {
+          console.log("key: " + key);
+        }
+    }
+
+    //console.log("contents of 'emptyObject' is: ");
+    //console.log(JSON.stringify(emptyObject,null, 4));
+
+    //console.log("num of keys in 'emptyObject' is: " + Object.keys(emptyObject).length);
 
     console.log("contents of 'descriptor' is: ");
     console.log(JSON.stringify(descriptor,null, 4));
