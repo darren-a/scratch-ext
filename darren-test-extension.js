@@ -29,4 +29,4 @@
     console.log("contents of 'descriptor' is: ");
     console.log(JSON.stringify(descriptor,null, 4));
 
-})(777);
+})({});
