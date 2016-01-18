@@ -38,7 +38,7 @@
 
     for (var key in ext) {
 
-        if(obj.hasOwnProperty(key)) {
+        if(ext.hasOwnProperty(key)) {
           console.log("key: " + key);
         }
     }
