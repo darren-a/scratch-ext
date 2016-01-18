@@ -20,6 +20,11 @@
         ]
     };
 
+    console.log("contents of 'ext' PRE-REG is: ");
+    console.log(JSON.stringify(ext,null, 4));
+
+    console.log("num of keys in 'ext' PRE-REG is: " + Object.keys(ext).length);
+
     // Register the extension
     ScratchExtensions.register('My first extension', descriptor, ext);
 
