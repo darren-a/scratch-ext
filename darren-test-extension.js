@@ -26,6 +26,8 @@
     console.log("contents of 'ext' is: ");
     console.log(JSON.stringify(ext,null, 4));
 
+    console.log("num of keys in 'ext' is: " + Object.keys(ext).length);
+
     console.log("contents of 'descriptor' is: ");
     console.log(JSON.stringify(descriptor,null, 4));
 
