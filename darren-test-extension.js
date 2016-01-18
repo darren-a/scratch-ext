@@ -24,6 +24,6 @@
     ScratchExtensions.register('My first extension', descriptor, ext);
 
     console.log("test log output");
-    
+    console.log("value of ext is " + ext);
 
 })({});
