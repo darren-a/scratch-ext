@@ -22,4 +22,8 @@
 
     // Register the extension
     ScratchExtensions.register('My first extension', descriptor, ext);
+
+    console.log("test log output");
+    
+
 })({});
