@@ -27,6 +27,6 @@
     console.log(JSON.stringify(ext,null, 4));
 
     console.log("contents of 'descriptor' is: ");
-    console.log(JSON.stringify(descriptor,null, 4));
+    //console.log(JSON.stringify(descriptor,null, 4));
 
 })({});
