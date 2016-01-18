@@ -23,7 +23,10 @@
     // Register the extension
     ScratchExtensions.register('My first extension', descriptor, ext);
 
-    console.log("test log output of 'ext' is: ");
+    console.log("contents of 'ext' is: ");
     console.log(JSON.stringify(ext,null, 4));
+
+    console.log("contents of 'descriptor' is: ");
+    console.log(JSON.stringify(descriptor,null, 4));
 
 })({});
