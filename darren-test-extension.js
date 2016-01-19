@@ -33,7 +33,7 @@
 
 
     // Register the extension
-    ScratchExtensions.register('My first extension', descriptor, ext);
+    ScratchExtensions.register('ISS Tracker', descriptor, ext);
 
     var emptyObject = {};
 
