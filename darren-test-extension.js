@@ -8,7 +8,9 @@
     console.log("num of keys in 'ext' PRE-USE is: " + Object.keys(ext).length);
 
     // Cleanup function when the extension is unloaded
-    ext._shutdown = function() {};
+    ext._shutdown = function() {
+        console.log("ext._shutdown was called");
+    };
 
     // Status reporting code
     // Use this to report missing hardware, plugin or unsupported browser
