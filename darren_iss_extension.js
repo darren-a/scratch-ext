@@ -58,6 +58,7 @@
       url: "https://api.wheretheiss.at/v1/satellites/25544",
       success: function(data) {
         issData = data;
+        console.log(issData);
       },
       error: function(jqxhr, textStatus, error) {
         console.log("Error downloading ISS data");
