@@ -84,6 +84,8 @@
   }
 
   ext.whenISSPasses = function(str) {
+
+    console.log("whenISSPasses was called");
     if (!issData) return;
 
     getLocation(str, function(loc) {
